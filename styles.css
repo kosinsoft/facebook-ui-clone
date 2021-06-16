@@ -98,7 +98,7 @@ input[type=text] {
   }
   
   input::placeholder {
-    color: rgb(88, 88, 88);
+    color: rgb(165, 165, 165);
   }
   label, input {
     font-family: sans-serif;
@@ -113,6 +113,7 @@ input[type=text] {
     background-color: rgb(255, 255, 255);
     box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
     width: 350px;
+    font-weight: bold;
 }
 .fb-submit {
     display: block;
@@ -123,8 +124,11 @@ input[type=text] {
     font-size: 22px;
     line-height: 32px;
     padding: 8px;
+    margin-top: 10px;
     text-decoration: none;
     color: white;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
 }
 .fb-forgot {
     background-color: white;
@@ -133,6 +137,9 @@ input[type=text] {
     text-align: center;
     text-decoration: none;
     padding: 20px;
+    color: #1c1e21;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
 }
 
 .fb-register {
@@ -148,6 +155,18 @@ input[type=text] {
     width: 150px;
     margin: auto;
     border-radius: 6px;
+
+    direction: ltr;
+    line-height: 1.34;
+    -webkit-font-smoothing: subpixel-antialiased;
+    margin-top: 28px;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+
 }
 
 hr {
@@ -155,7 +174,32 @@ hr {
     border: 1px solid #EEEEEE;
 }
 
+.fb-title {
+    direction: ltr;
+    -webkit-font-smoothing: subpixel-antialiased;
+    letter-spacing: normal;
+    text-rendering: optimizelegibility;
+    color: #1c1e21;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 30px;
 
+}
+
+footer {
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-top: 100px;
+    height: 100px;
+    background-color:white;
+    margin-bottom: auto;
+    color:#5c5c5c;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+}
 
 @media only screen and (max-width: 1000px)
 {
@@ -170,12 +214,10 @@ hr {
 
     .box0 {
         width: 100%;
-
     }
     
     .box1 {
         width: 100%;
-
     }
     
     .box2 {
@@ -184,14 +226,6 @@ hr {
 
     .login {
         margin: auto;
-        display: block;
-        text-align: center;
-        padding: 20px;
-        margin-top: 0px;
-        border-radius: 5px;
-
-        box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.1);
-        width: 350px;
     }
 
     .content {
@@ -213,24 +247,3 @@ hr {
 
 }
 
-.fb-title {
-    direction: ltr;
-    -webkit-font-smoothing: subpixel-antialiased;
-    letter-spacing: normal;
-    text-rendering: optimizelegibility;
-    color: #1c1e21;
-    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 30px;
-
-}
-footer {
-    padding-top: 30px;
-    padding-left: 30px;
-    margin-top: 100px;
-    height: 50px;
-    background-color:white;
-    margin-bottom: auto;
-}
